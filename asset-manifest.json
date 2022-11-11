@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TutedudeAssignment/static/css/main.f37ee560.css",
-    "main.js": "/TutedudeAssignment/static/js/main.31c2dc89.js",
-    "static/media/logo.svg": "/TutedudeAssignment/static/media/logo.20427354e105d4e5eb654a797c6d77ed.svg",
-    "static/media/discount_for_friend.svg": "/TutedudeAssignment/static/media/discount_for_friend.7d595bade58f8362908e59157585c0eb.svg",
-    "static/media/invite_people.svg": "/TutedudeAssignment/static/media/invite_people.77867a0ea32cc52268b97a9bd7e9a737.svg",
-    "static/media/rupee.svg": "/TutedudeAssignment/static/media/rupee.893c2c77dffc8e9239cd9f2511e00b9a.svg",
-    "static/media/referral_coupon.svg": "/TutedudeAssignment/static/media/referral_coupon.9f0646685df5a46be360ecdf01c2811a.svg",
-    "static/media/wallet.svg": "/TutedudeAssignment/static/media/wallet.55ae1e0a328db065e727527306914e15.svg",
-    "index.html": "/TutedudeAssignment/index.html",
-    "static/media/go_back.svg": "/TutedudeAssignment/static/media/go_back.f3052b7b0209e2a63385719da5c52283.svg",
-    "static/media/user_profile.svg": "/TutedudeAssignment/static/media/user_profile.87422489157094c553a1d54a6d79f334.svg",
-    "static/media/down_arrow.svg": "/TutedudeAssignment/static/media/down_arrow.bf2493da33ca9bf86020b6956ec8f4dd.svg",
-    "main.f37ee560.css.map": "/TutedudeAssignment/static/css/main.f37ee560.css.map",
-    "main.31c2dc89.js.map": "/TutedudeAssignment/static/js/main.31c2dc89.js.map"
+    "main.css": "/tutedude-assignment/static/css/main.f37ee560.css",
+    "main.js": "/tutedude-assignment/static/js/main.c4f13914.js",
+    "static/media/logo.svg": "/tutedude-assignment/static/media/logo.20427354e105d4e5eb654a797c6d77ed.svg",
+    "static/media/discount_for_friend.svg": "/tutedude-assignment/static/media/discount_for_friend.7d595bade58f8362908e59157585c0eb.svg",
+    "static/media/invite_people.svg": "/tutedude-assignment/static/media/invite_people.77867a0ea32cc52268b97a9bd7e9a737.svg",
+    "static/media/rupee.svg": "/tutedude-assignment/static/media/rupee.893c2c77dffc8e9239cd9f2511e00b9a.svg",
+    "static/media/referral_coupon.svg": "/tutedude-assignment/static/media/referral_coupon.9f0646685df5a46be360ecdf01c2811a.svg",
+    "static/media/wallet.svg": "/tutedude-assignment/static/media/wallet.55ae1e0a328db065e727527306914e15.svg",
+    "index.html": "/tutedude-assignment/index.html",
+    "static/media/go_back.svg": "/tutedude-assignment/static/media/go_back.f3052b7b0209e2a63385719da5c52283.svg",
+    "static/media/user_profile.svg": "/tutedude-assignment/static/media/user_profile.87422489157094c553a1d54a6d79f334.svg",
+    "static/media/down_arrow.svg": "/tutedude-assignment/static/media/down_arrow.bf2493da33ca9bf86020b6956ec8f4dd.svg",
+    "main.f37ee560.css.map": "/tutedude-assignment/static/css/main.f37ee560.css.map",
+    "main.c4f13914.js.map": "/tutedude-assignment/static/js/main.c4f13914.js.map"
   },
   "entrypoints": [
     "static/css/main.f37ee560.css",
-    "static/js/main.31c2dc89.js"
+    "static/js/main.c4f13914.js"
   ]
 }
