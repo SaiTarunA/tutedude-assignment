@@ -1,0 +1,89 @@
+.ReferAndEarn__section-1 {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.ReferAndEarn__section-1, .ReferAndEarn__section-2, .ReferAndEarn__section-3 {
+    text-align: left;
+}
+
+.ReferAndEarn__section-1__refer-details {
+    padding: 20px;
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    box-shadow: 0px 3px 100px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.ReferAndEarn__section-1__refer-details__button-container {
+    flex: 1;
+    text-align: center;
+}
+
+.ReferAndEarn__section-1__refer-code {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.ReferAndEarn__section-1__refer-code__code-input {
+    width: 100%;
+    padding: 15px 64px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: linear-gradient(white, white) padding-box, var(--gradient) border-box;
+    border-radius: 10px;
+    border: 1.5px solid transparent;
+}
+
+
+.ReferDetailsOption__name, .ReferAndEarn__section-1__refer-code, .ReferAndEarn__section-2__heading, .ReferAndEarn__section-3 {
+    color: var(--primary);
+}
+
+.ReferAndEarn__section-2__body {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.Section2Card {
+    width: 50%;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+}
+
+.Section2Card__logo {
+    background: rgba(217, 217, 217, 0.25);
+    width: 65px;
+    height: 65px;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.Section2Card__content {
+    flex: 1;
+}
+
+.Section2Card__content__subtitle {
+    color: var(--grey);
+}
+
+@media only screen and (max-width: 900px) {
+    .ReferAndEarn__section-1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .ReferAndEarn__section-1__refer-details, .ReferAndEarn__section-1__refer-code, .Section2Card {
+        width: 100%;
+    }
+}

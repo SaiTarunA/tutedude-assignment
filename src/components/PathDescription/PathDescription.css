@@ -1,0 +1,40 @@
+.PathDescription__container {
+    width: 100%;
+    background: white;
+    position: sticky;
+    top: 74px;
+    z-index: 100;
+}
+
+.PathDescription {
+    width: 75%;
+    margin: auto;
+    height: 76px;
+    justify-content: flex-start;
+}
+
+.BreadCrumbOption {
+    margin-right: 5px;
+}
+
+.BreadCrumbOption__right-arrow {
+    margin-left: 5px;
+}
+
+.BreadCrumbOption:last-child .BreadCrumbOption__right-arrow {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .PathDescription {
+        width: 80%
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .PathDescription {
+        width: 90%;
+        max-width: 600px;
+    }
+}

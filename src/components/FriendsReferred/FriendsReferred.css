@@ -1,0 +1,108 @@
+.FriendsReferred {
+    text-align: left;
+}
+
+.FriendsReferred__go-back-container {
+    gap: 10px;
+}
+
+.FriendsReferred__section-1 {
+    justify-content: space-between;
+}
+
+.FriendsReferred__section-1__referral-code__body {
+    width: 100%;
+    padding: 13px 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 1.5px solid #DFDFDF;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.FriendsReferred__section-1__wallet {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+}
+
+.FriendsReferred__section-2__body {
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.FriendsEnrolledCard {
+    padding: 20px;
+    background: var(--gradient);
+    border-radius: 20px;
+    width: 32.5%;
+    min-width: 210px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FriendsEnrolledCard__title, .FriendsEnrolledCard__footer {
+    justify-content: space-between;
+}
+
+.FriendsEnrolledCard__course-list-container {
+    padding: 10px;
+}
+
+.FriendsEnrolledCard__course-list {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 78px;
+    overflow-y: scroll;
+}
+
+.FriendsEnrolledCard__course-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.FriendsEnrolledCard__course-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.FriendsEnrolledCard__course-list::-webkit-scrollbar-thumb {
+    background: var(--light-pink);
+    border-radius: 2.5px;
+}
+
+.chip {
+    padding: 4px 9px;
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 901px) {
+    .FriendsReferred__go-back {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .FriendsReferred__section-2__body {
+        row-gap: 20px;
+    }
+    .FriendsEnrolledCard {
+        width: 100%;
+    }
+    .FriendsReferred__go-back {
+        max-width: 600px;
+        position: sticky;
+        top: 150px;
+        background: white;
+    }
+
+    .workspace2 {
+        max-width: 600px;
+    }
+}

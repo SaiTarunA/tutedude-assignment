@@ -1,0 +1,55 @@
+.NavBar__container {
+    width: 100%;
+    background: white;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.NavBar {
+    width: 85%;
+    margin: auto;
+    height: 74px;
+    justify-content: space-between;
+}
+
+.NavBar__options {
+    gap: 30px;
+}
+
+.NavBar__option__profile {
+    gap: 6px;
+}
+.NavBar__option__down-arrow {
+    height: 20px;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .NavBar {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .NavBar {
+        width: 95%;
+        max-width: 650px;
+    }
+
+    .NavBar__option-disabled, .NavBar__option__icon {
+        display: none;
+    }
+
+    .NavBar__option__profile {
+        background: var(--primary);
+        color: white;
+        padding: 12px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    .NavBar__option__profile svg path {
+        fill: white;
+    }
+}
