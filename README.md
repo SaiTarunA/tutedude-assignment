@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Tutedude assignment using React Js.
+Live preview: [https://saitaruna.github.io/tutedude-assignment/](https://saitaruna.github.io/tutedude-assignment/) \
+Hosted on GitHub pages.
+
+
+
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
